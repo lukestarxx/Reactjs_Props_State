@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassKomponen from "./Materi/Komponen/pembahasan/ClassKomponen";
+import FunctionKomponen from "./Materi/Komponen/pembahasan/FunctionKomponen";
+
+// <ClassKomponen nama = "Luke Starail" /> (Contoh syntax props)
+// <ClassKomponen nama = "Selee" /> (Contoh syntax props)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <ClassKomponen nama = "Luke StarRail" />
+   <FunctionKomponen nama = "Seele " />
     </div>
   );
 }
